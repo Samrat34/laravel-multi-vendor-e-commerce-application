@@ -99,30 +99,30 @@ $sections = \App\Models\Section::sections();
                         </ul>
                     </li>
                     <li>
-                        <a>EGP
-                        <i class="fas fa-chevron-down u-s-m-l-9"></i>
+                        <a>BDT
+                        {{-- <i class="fas fa-chevron-down u-s-m-l-9"></i> --}}
                         </a>
-                        <ul class="g-dropdown" style="width:90px">
+                        {{-- <ul class="g-dropdown" style="width:90px">
                             <li>
-                                <a href="#" class="u-c-brand">LE EGP</a>
+                                <a href="#" class="u-c-brand">(৳) BDT</a>
                             </li>
                             <li>
                                 <a href="#">($) USD</a>
                             </li>
-                        </ul>
+                        </ul> --}}
                     </li>
                     <li>
                         <a>ENG
-                        <i class="fas fa-chevron-down u-s-m-l-9"></i>
+                        {{-- <i class="fas fa-chevron-down u-s-m-l-9"></i> --}}
                         </a>
-                        <ul class="g-dropdown" style="width:70px">
+                        {{-- <ul class="g-dropdown" style="width:70px">
                             <li>
                                 <a href="#" class="u-c-brand">ENG</a>
                             </li>
                             <li>
                                 <a href="#">ARB</a>
                             </li>
-                        </ul>
+                        </ul> --}}
                 </ul>
             </nav>
         </div>
