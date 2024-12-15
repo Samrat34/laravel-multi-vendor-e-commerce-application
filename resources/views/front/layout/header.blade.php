@@ -14,14 +14,14 @@ $sections = \App\Models\Section::sections();
             <nav>
                 <ul class="primary-nav g-nav">
                     <li>
-                        <a href="tel:+201255845857">
+                        <a href="tel:+0123456789">
                         <i class="fas fa-phone u-c-brand u-s-m-r-9"></i>
-                        Telephone: +201255845857</a>
+                        Mobile Number: +0123456789</a>
                     </li>
                     <li>
-                        <a href="mailto:info@multi-vendore-commerce.com">
+                        <a href="mailto:info@amarshop.org">
                         <i class="fas fa-envelope u-c-brand u-s-m-r-9"></i>
-                        E-mail: info@multi-vendore-commerce.com
+                        E-mail: info@amarshop.org
                         </a>
                     </li>
                 </ul>
@@ -134,12 +134,8 @@ $sections = \App\Models\Section::sections();
             <div class="row clearfix align-items-center">
                 <div class="col-lg-3 col-md-9 col-sm-6">
                     <div class="brand-logo text-lg-center">
-
-
                         <a href="{{ url('/') }}">
-
-
-                            <img src="{{ asset('front/images/main-logo/main-logo.png') }}" alt="Multi-vendor E-commerce Application" class="app-brand-logo">
+                            <img src="{{ asset('front/images/main-logo/main-logo.png') }}" alt="Multi-vendor E-commerce Application" class="app-brand-logo" height="auto"width="150px">
                         </a>
                     </div>
                 </div>
