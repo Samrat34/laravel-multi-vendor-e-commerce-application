@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('vendors_business_details', function (Blueprint $table) {
             $table->id();
 
-            $table->integer('vendor_id');
+            $table->integer('vendor_id')->nullable();
             $table->string('shop_name')->nullable();
             $table->string('shop_address')->nullable();
             $table->string('shop_city')->nullable();

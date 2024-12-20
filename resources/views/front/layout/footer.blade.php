@@ -15,11 +15,14 @@
 
 
 
-            
+
             <form class="newsletter-form">
                 <label class="sr-only" for="subscriber_email">Enter your Email</label>
-                <input type="text" placeholder="Your Email Address" id="subscriber_email" name="subscriber_email" required> {{-- We'll use the HTML id Global Attribute in jQuery in front/js/custom.js --}} 
-                <button type="button" class="button" onclick="addSubscriber()">SUBMIT</button> {{-- Check the addSubscriber() function in front/js/custom.js. We'll use it in conjunction with the    id="subscriber_email"    of the <input> field --}}
+                <input type="text" placeholder="Your Email Address" id="subscriber_email" name="subscriber_email"
+                    required> {{-- We'll use the HTML id Global Attribute in jQuery in front/js/custom.js --}}
+                <button type="button" class="button" onclick="addSubscriber()">SUBMIT</button> {{-- Check the
+                addSubscriber() function in front/js/custom.js. We'll use it in conjunction with the
+                id="subscriber_email" of the <input> field --}}
             </form>
 
 
@@ -80,19 +83,19 @@
                         <ul>
                             <li>
                                 <i class="fas fa-location-arrow u-s-m-r-9"></i>
-                                <span>Multi-vendor E-commerce Application</span>
+                                <span>Amar :: Shop</span>
                             </li>
                             <li>
                                 <a href="tel:+201255845857">
-                                <i class="fas fa-phone u-s-m-r-9"></i>
-                                <span>+01255845857</span>
+                                    <i class="fas fa-phone u-s-m-r-9"></i>
+                                    <span>+01255845857</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="mailto:info@multi-vendore-commerce.com">
-                                <i class="fas fa-envelope u-s-m-r-9"></i>
-                                <span>
-                                info@multi-vendore-commerce.com</span>
+                                    <i class="fas fa-envelope u-s-m-r-9"></i>
+                                    <span>
+                                        info@multi-vendore-commerce.com</span>
                                 </a>
                             </li>
                         </ul>
@@ -107,43 +110,43 @@
                 <ul class="social-media-list">
                     <li>
                         <a target="_blank" href="#">
-                        <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-facebook-f"></i>
                         </a>
                     </li>
                     <li>
                         <a target="_blank" href="#">
-                        <i class="fab fa-twitter"></i>
+                            <i class="fab fa-twitter"></i>
                         </a>
                     </li>
                     <li>
                         <a target="_blank" href="#">
-                        <i class="fab fa-google-plus-g"></i>
+                            <i class="fab fa-google-plus-g"></i>
                         </a>
                     </li>
                     <li>
                         <a target="_blank" href="#">
-                        <i class="fas fa-rss"></i>
+                            <i class="fas fa-rss"></i>
                         </a>
                     </li>
                     <li>
                         <a target="_blank" href="#">
-                        <i class="fab fa-pinterest"></i>
+                            <i class="fab fa-pinterest"></i>
                         </a>
                     </li>
                     <li>
                         <a target="_blank" href="#">
-                        <i class="fab fa-linkedin-in"></i>
+                            <i class="fab fa-linkedin-in"></i>
                         </a>
                     </li>
                     <li>
                         <a target="_blank" href="#">
-                        <i class="fab fa-youtube"></i>
+                            <i class="fab fa-youtube"></i>
                         </a>
                     </li>
                 </ul>
             </div>
             <p class="copyright-text">Copyright &copy; 2022
-                <a target="_blank" rel="nofollow" href="#">Multi-vendor E-commerce Application</a> | All Right Reserved
+                <a target="_blank" rel="nofollow" href="#">Amar :: Shop</a> | All Right Reserved
             </p>
         </div>
     </div>
