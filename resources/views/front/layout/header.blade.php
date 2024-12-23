@@ -4,8 +4,6 @@ $sections = \App\Models\Section::sections();
 // dd($sections);
 ?>
 
-
-
 <!-- Header -->
 <header>
     <!-- Top-Header -->

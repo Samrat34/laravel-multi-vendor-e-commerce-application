@@ -11,7 +11,8 @@ use App\Models\User;
 class UserController extends Controller
 {
     // Render admin/users/users.blade.php page in the Admin Panel    
-    public function users() {
+    public function users()
+    {
         // Correcting issues in the Skydash Admin Panel Sidebar using Session
         Session::put('page', 'users');
 
@@ -26,7 +27,8 @@ class UserController extends Controller
 
 
     // Update User Status (active/inactive) via AJAX in admin/users/users.blade.php, check admin/js/custom.js    
-    public function updateUserStatus(Request $request) {
+    public function updateUserStatus(Request $request)
+    {
         if ($request->ajax()) { // if the request is coming via an AJAX call
             $data = $request->all(); // Getting the name/value pairs array that are sent from the AJAX request (AJAX call)
             // dd($data);

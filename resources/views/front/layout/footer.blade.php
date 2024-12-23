@@ -145,7 +145,7 @@
                     </li>
                 </ul>
             </div>
-            <p class="copyright-text">Copyright &copy; 2022
+            <p class="copyright-text">Copyright &copy; 2024
                 <a target="_blank" rel="nofollow" href="#">Amar :: Shop</a> | All Right Reserved
             </p>
         </div>
