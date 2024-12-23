@@ -55,14 +55,16 @@
                                         <td>
                                             @php
                                             $catIds = explode(',', $filter['cat_ids']);
-                                            // echo '
-                                            <pre>', var_dump($catIds), '</pre>';
-                                            foreach ($catIds as $key => $catId) {
-                                            $category_name = \App\Models\Category::getCategoryName($catId);
-                                            echo $category_name . ' ';
-                                            }
                                             @endphp
+
+                                            @foreach ($catIds as $catId)
+                                            @php
+                                            $category_name = \App\Models\Category::getCategoryName($catId);
+                                            @endphp
+                                            {{ $category_name }}
+                                            @endforeach
                                         </td>
+
                                         <td>
                                             @if ($filter['status'] == 1)
                                             <a class="updateFilterStatus" id="filter-{{ $filter['id'] }}"
