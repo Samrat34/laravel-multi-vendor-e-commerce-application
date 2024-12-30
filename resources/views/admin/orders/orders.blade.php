@@ -10,9 +10,6 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Orders</h4>
-
-
-
                         <div class="table-responsive pt-3">
                             {{-- DataTable --}}
                             <table id="orders" class="table table-bordered"> {{-- using the id here for the DataTable

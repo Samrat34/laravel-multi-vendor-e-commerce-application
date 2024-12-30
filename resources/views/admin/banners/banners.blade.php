@@ -8,10 +8,6 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Home Page Banners</h4>
-
-
-
-
                         <a href="{{ url('admin/add-edit-banner') }}"
                             style="max-width: 150px; float: right; display: inline-block"
                             class="btn btn-block btn-primary">Add Banner</a>

@@ -9,10 +9,6 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Products</h4>
-
-
-
-
                         <a href="{{ url('admin/add-edit-product') }}"
                             style="max-width: 150px; float: right; display: inline-block"
                             class="btn btn-block btn-primary">Add Product</a>
